@@ -17,6 +17,10 @@ const routes: Routes = [
         loadChildren: () => import('./media/media.module').then(m => m.MediaModule),
     },
     {
+        path: 'raiding',
+        loadChildren: () => import('./raiding/raiding.module').then(m => m.RaidingModule),
+    },
+    {
         path: '**',
         redirectTo: '/home',
         pathMatch: 'full',

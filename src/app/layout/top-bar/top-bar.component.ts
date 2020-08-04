@@ -4,6 +4,7 @@ import { MenuItem } from 'src/app/shared/models/menu-item.model';
 
 @Component({
     templateUrl: './top-bar.component.html',
+    styleUrls: ['./top-bar.component.scss'],
     selector: 'top-bar',
 })
 export class TopBarComponent {
