@@ -16,6 +16,23 @@ export class AppComponent {
             routerLink: '/home',
             itemText: 'Home',
         },
+        {
+            itemName: 'media',
+            routerLink: '/media',
+            itemText: 'Media',
+        },
+        {
+            itemName: 'raiding',
+            routerLink: '/raiding',
+            itemText: 'Raiding',
+            innerItems: [
+                {
+                    itemName: 'raiding-strats',
+                    routerLink: '/raiding/strats',
+                    itemText: 'Raiding Strats',
+                },
+            ],
+        },
     ];
 
     activateRoute(component: any): void {
