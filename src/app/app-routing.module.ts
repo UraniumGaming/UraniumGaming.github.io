@@ -13,6 +13,10 @@ const routes: Routes = [
         component: HomeComponent,
     },
     {
+        path: 'media',
+        loadChildren: () => import('./media/media.module').then(m => m.MediaModule),
+    },
+    {
         path: '**',
         redirectTo: '/home',
         pathMatch: 'full',
