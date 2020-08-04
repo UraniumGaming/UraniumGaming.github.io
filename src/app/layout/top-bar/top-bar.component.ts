@@ -7,4 +7,6 @@ import { MenuItem } from 'src/app/shared/models/menu-item.model';
 })
 export class TopBarComponent {
     @Input() menuItems: MenuItem[];
+
+    collapsed: boolean = false;
 }

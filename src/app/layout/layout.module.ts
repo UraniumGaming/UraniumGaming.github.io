@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from 'src/app/app.component';
 import { TopBarComponent } from 'src/app/layout/top-bar/top-bar.component';
 
@@ -11,6 +12,7 @@ import { TopBarComponent } from 'src/app/layout/top-bar/top-bar.component';
     imports: [
         RouterModule,
         CommonModule,
+        NgbDropdownModule,
     ],
     providers: [],
     bootstrap: [AppComponent],

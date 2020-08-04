@@ -3,20 +3,64 @@
         <img src="assets/logo.png" style="height: 40px" alt="Uranium Gaming Logo"> Uranium Gaming
     </a>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+    <button class="navbar-toggler" type="button" (click)="collapsed = !collapsed">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+    <div class="navbar-collapse" [class.collapse]="collapsed" id="navbarNavDropdown">
         <ul class="navbar-nav">
+            <ng-container *ngFor="let item of menuItems">
+                <li *ngIf="item.innerItems"
+                    id="{{ item.itemName }}-link"
+                    class="nav-item"
+                    [routerLink]="[item.routerLink]"
+                    [routerLinkActive]="'active'"
+                    ngbDropdown
+                    display="dynamic"
+                    placement="bottom-right"
+                >
+                    <a id="navbar-{{ item.itemName }}"
+                       class="nav-link"
+                       role="button"
+                       tabindex="0"
+                       ngbDropdownToggle
+                       [routerLink]="[item.routerLink]"
+                       [routerLinkActive]="'active'"
+                       ngbDropdownAnchor
+                    >
+                        {{ item.itemText }}
+                    </a>
+                    <div class="dropdown-menu" ngbDropdownMenu>
+                        <a *ngFor="let inner of item.innerItems"
+                           ngbDropdownItem
+                           [routerLink]="[inner.routerLink]"
+                           [routerLinkActive]="'active'"
+                        >
+                            {{ inner.itemText }}
+                        </a>
+                    </div>
+                </li>
+                <li *ngIf="!item.innerItems"
+                    id="{{ item.itemName }}-link"
+                    class="nav-item"
+                    [routerLink]="[item.routerLink]"
+                    [routerLinkActive]="'active'"
+                >
+                    <a class="nav-link" [routerLink]="[item.routerLink]" [routerLinkActive]="'active'">
+                        {{ item.itemText }}
+                    </a>
+                </li>
+            </ng-container>
             <li *ngFor="let item of menuItems"
-                id="{{ item.itemName }}-link"
-                class="nav-item"
-                [routerLink]="[item.routerLink]"
-                [routerLinkActive]="'active'"
+
+                [class.dropdown]="item.innerItems"
             >
-                <a class="nav-link" [routerLink]="[item.routerLink]" [routerLinkActive]="'active'">
-                    {{ item.itemText }}
-                </a>
+                <ng-container *ngIf="!item.innerItems">
+
+                </ng-container>
+                <ng-container *ngIf="item.innerItems" ngbDropdown #drop=ngbDropdown>
+
+                </ng-container>
             </li>
         </ul>
     </div>
