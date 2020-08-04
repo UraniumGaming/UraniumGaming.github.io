@@ -2,7 +2,7 @@
     <div class="text-light m-auto">Uraniumgaming.com is currently under construction.</div>
 </div>
 
-<top-bar></top-bar>
+<top-bar [menuItems]="menuItems"></top-bar>
 
 <div class="banner" style="margin-top: 8rem; height: 21.25rem">
     <div class="inner-banner"></div>
@@ -12,6 +12,5 @@
 </div>
 
 <div class="container" style="margin-top: 8rem">
-
     <router-outlet (activate)="activateRoute($event)"></router-outlet>
 </div>

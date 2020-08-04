@@ -2,4 +2,22 @@
     <a class="navbar-brand ml-2" [routerLink]="['/home']">
         <img src="assets/logo.png" style="height: 40px" alt="Uranium Gaming Logo"> Uranium Gaming
     </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li *ngFor="let item of menuItems"
+                id="{{ item.itemName }}-link"
+                class="nav-item"
+                [routerLink]="[item.routerLink]"
+                [routerLinkActive]="'active'"
+            >
+                <a class="nav-link" [routerLink]="[item.routerLink]" [routerLinkActive]="'active'">
+                    {{ item.itemText }}
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>

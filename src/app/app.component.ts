@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuItem } from 'src/app/shared/models/menu-item.model';
 import { NamedComponent } from 'src/app/shared/named.component';
 
 @Component({
@@ -8,6 +9,14 @@ import { NamedComponent } from 'src/app/shared/named.component';
 })
 export class AppComponent {
     title: string;
+
+    menuItems: MenuItem[] = [
+        {
+            itemName: 'home',
+            routerLink: '/home',
+            itemText: 'Home',
+        },
+    ];
 
     activateRoute(component: any): void {
         if (this.isNamedComponent(component)) {
