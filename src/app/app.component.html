@@ -2,10 +2,10 @@
 
 <div class="banner" style="height: 21.25rem">
     <div class="inner-banner d-flex justify-content-center align-items-center h-100">
-        <h1 class="text-white" style="font-size: 84px">{{ title }}</h1>
+        <h1 class="text-white" style="font-size: 84px">{{ globals.titleName }}</h1>
     </div>
 </div>
 
-<div class="container mt-3">
+<div class="container mt-3 d-flex flex-column flex-fill">
     <router-outlet (activate)="activateRoute($event)"></router-outlet>
 </div>

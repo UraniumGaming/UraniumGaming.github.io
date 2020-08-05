@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { RaidingBaseComponent } from 'src/app/raiding/base/raiding-base.component';
-import { RaidingStratsComponent } from 'src/app/raiding/strats/raiding-strats.component';
+import { RaidingBaseComponent } from 'app/raiding/base/raiding-base.component';
+import { RaidingStratsComponent } from 'app/raiding/strats/raiding-strats.component';
 
 import { RaidingComponent } from './raiding.component';
 

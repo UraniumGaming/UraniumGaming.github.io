@@ -1,10 +1,17 @@
-import { Component } from '@angular/core';
-import { NamedComponent } from 'src/app/shared/named.component';
+import { Component, OnInit } from '@angular/core';
+import { Globals } from 'app/globals';
 
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
 })
-export class HomeComponent implements NamedComponent {
-    getName: () => string = () => 'Uranium Gaming';
+export class HomeComponent implements OnInit {
+    constructor(
+        private globals: Globals,
+    ) {
+    }
+
+    ngOnInit(): void {
+        this.globals.titleName = 'Uranium Gaming';
+    }
 }

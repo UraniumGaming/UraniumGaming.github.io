@@ -1,14 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { NamedComponent } from 'src/app/shared/named.component';
+import { Globals } from 'app/globals';
 
 @Component({
     selector: 'app-media',
     templateUrl: './media.component.html',
     styleUrls: ['./media.component.scss'],
 })
-export class MediaComponent implements OnInit, NamedComponent {
-    ngOnInit(): void {
+export class MediaComponent implements OnInit {
+    constructor(
+        private globals: Globals,
+    ) {
     }
 
-    getName: () => string = () => 'Media';
+    ngOnInit(): void {
+        this.globals.titleName = 'Media';
+    }
 }

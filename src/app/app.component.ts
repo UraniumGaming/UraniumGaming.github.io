@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
-import { MenuItem } from 'src/app/shared/models/menu-item.model';
-import { NamedComponent } from 'src/app/shared/named.component';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Globals } from 'app/globals';
+import { MenuItem } from 'app/shared/models/menu-item.model';
+import { NamedComponent } from 'app/shared/named.component';
 
 @Component({
     selector: 'app-root',
@@ -33,7 +35,36 @@ export class AppComponent {
                 },
             ],
         },
+        {
+            itemName: 'guild-info',
+            routerLink: '/guild-info',
+            itemText: 'Guild Info',
+            innerItems: [
+                {
+                    itemName: 'rules-and-policies',
+                    routerLink: '/guild-info/rules',
+                    itemText: 'Rules and Policies',
+                },
+                {
+                    itemName: 'becoming-an-officer',
+                    routerLink: '/guild-info/becoming-an-officer',
+                    itemText: 'Becoming an Officer',
+                },
+                {
+                    itemName: 'uranium-officers',
+                    routerLink: '/guild-info/uranium-officers',
+                    itemText: 'Uranium Officers',
+                },
+            ],
+        },
     ];
+
+    constructor(
+        public globals: Globals,
+        private router: Router,
+    ) {
+        this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+    }
 
     activateRoute(component: any): void {
         if (this.isNamedComponent(component)) {
@@ -41,6 +72,14 @@ export class AppComponent {
         } else {
             this.title = 'Uranium Gaming';
         }
+        if (this.isOnInit(component)) {
+            // tslint:disable-next-line:no-lifecycle-call
+            component.ngOnInit();
+        }
+    }
+
+    isOnInit(component: any): component is OnInit {
+        return (component as OnInit).ngOnInit !== undefined;
     }
 
     isNamedComponent(component: any): component is NamedComponent {

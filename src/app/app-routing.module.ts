@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from 'src/app/home/home.component';
+import { HomeComponent } from 'app/home/home.component';
 
 const routes: Routes = [
     {
@@ -20,6 +20,7 @@ const routes: Routes = [
         path: 'raiding',
         loadChildren: () => import('./raiding/raiding.module').then(m => m.RaidingModule),
     },
+    { path: 'guild-info', loadChildren: () => import('./guild-info/guild-info.module').then(m => m.GuildInfoModule) },
     {
         path: '**',
         redirectTo: '/home',
@@ -29,7 +30,9 @@ const routes: Routes = [
 
 @NgModule({
     imports: [
-        RouterModule.forRoot(routes),
+        RouterModule.forRoot(routes, {
+            onSameUrlNavigation: 'reload',
+        }),
     ],
     exports: [
         RouterModule,

@@ -1,6 +1,6 @@
 import { Component, Input, QueryList, ViewChildren } from '@angular/core';
 import { NgbDropdown } from '@ng-bootstrap/ng-bootstrap';
-import { MenuItem } from 'src/app/shared/models/menu-item.model';
+import { MenuItem } from 'app/shared/models/menu-item.model';
 
 @Component({
     templateUrl: './top-bar.component.html',
