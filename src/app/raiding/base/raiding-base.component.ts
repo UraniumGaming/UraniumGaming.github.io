@@ -7,6 +7,8 @@ import { Globals } from 'app/globals';
     styleUrls: ['./raiding-base.component.scss'],
 })
 export class RaidingBaseComponent implements OnInit {
+    activeItem: 'schedule' | 'expectations' | 'heroic' | 'mythic' | 'loot' | 'signup';
+
     constructor(
         private globals: Globals,
     ) {

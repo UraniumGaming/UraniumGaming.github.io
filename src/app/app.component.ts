@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Globals } from 'app/globals';
 import { MenuItem } from 'app/shared/models/menu-item.model';
-import { NamedComponent } from 'app/shared/named.component';
 
 @Component({
     selector: 'app-root',
@@ -28,6 +27,11 @@ export class AppComponent {
             routerLink: '/raiding',
             itemText: 'Raiding',
             innerItems: [
+                {
+                    itemName: 'raiding-general',
+                    routerLink: '/raiding',
+                    itemText: 'Raiding Info',
+                },
                 {
                     itemName: 'raiding-strats',
                     routerLink: '/raiding/strats',
@@ -67,11 +71,6 @@ export class AppComponent {
     }
 
     activateRoute(component: any): void {
-        if (this.isNamedComponent(component)) {
-            this.title = component.getName();
-        } else {
-            this.title = 'Uranium Gaming';
-        }
         if (this.isOnInit(component)) {
             // tslint:disable-next-line:no-lifecycle-call
             component.ngOnInit();
@@ -80,9 +79,5 @@ export class AppComponent {
 
     isOnInit(component: any): component is OnInit {
         return (component as OnInit).ngOnInit !== undefined;
-    }
-
-    isNamedComponent(component: any): component is NamedComponent {
-        return (component as NamedComponent).getName !== undefined;
     }
 }
