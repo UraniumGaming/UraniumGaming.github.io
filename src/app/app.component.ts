@@ -88,6 +88,11 @@ export class AppComponent {
                 },
             ],
         },
+        {
+            itemName: 'join-uranium',
+            routerLink: '/join-uranium',
+            itemText: 'Join Uranium',
+        },
     ];
 
     constructor(
