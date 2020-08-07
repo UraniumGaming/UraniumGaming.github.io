@@ -61,6 +61,33 @@ export class AppComponent {
                 },
             ],
         },
+        {
+            itemName: 'resources',
+            routerLink: '/resources',
+            itemText: 'Resources',
+            innerItems: [
+                {
+                    itemName: 'dps',
+                    routerLink: '/resources/dps',
+                    itemText: 'DPS',
+                },
+                {
+                    itemName: 'healing',
+                    routerLink: '/resources/healing',
+                    itemText: 'Healing',
+                },
+                {
+                    itemName: 'tanking',
+                    routerLink: '/resources/tanking',
+                    itemText: 'Tanking',
+                },
+                {
+                    itemName: 'suggestion-box',
+                    routerLink: '/resources/suggestion-box',
+                    itemText: 'Suggestion Box',
+                },
+            ],
+        },
     ];
 
     constructor(
