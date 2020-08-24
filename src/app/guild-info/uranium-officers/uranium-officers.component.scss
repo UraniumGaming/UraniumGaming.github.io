@@ -1,0 +1,17 @@
+@import "variables";
+
+$scoff-sizes: (
+        xs: 1.35rem,
+        sm: 1.75rem,
+        md: 2.5rem,
+        lg: 26px,
+        xl: 32px,
+);
+
+@each $size, $point in $grid-breakpoints {
+    @media (min-width: $point) {
+        .scoff-font {
+            font-size: map-get($scoff-sizes, $size);
+        }
+    }
+}
