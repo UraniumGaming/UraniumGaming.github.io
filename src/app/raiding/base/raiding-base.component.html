@@ -1,4 +1,4 @@
-<div class="d-flex">
+<div class="d-flex flex-fill">
     <ul ngbNav #nav=ngbNav [(activeId)]="activeItem" class="nav-pills col-lg-2" orientation="vertical">
         <li ngbNavItem="schedule">
             <a ngbNavLink>Schedules</a>
@@ -190,8 +190,7 @@
             <a ngbNavLink>Apply</a>
             <ng-template ngbNavContent>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzyTPfHqU9_oi4hMJnC-ldUcvalycFZXTGQqme4nAUBINQGQ/viewform?embedded=true"
-                        class="w-100"
-                        height="575px"
+                        class="w-100 d-flex flex-fill"
                         frameborder="0"
                         marginheight="0"
                         marginwidth="0"
@@ -202,5 +201,5 @@
         </li>
     </ul>
 
-    <div [ngbNavOutlet]="nav" class="ml-4 col-lg-10"></div>
+    <div [ngbNavOutlet]="nav" class="ml-4 col-lg-10 d-flex flex-fill flex-column"></div>
 </div>

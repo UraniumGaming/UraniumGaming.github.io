@@ -5,6 +5,9 @@ import { Globals } from 'app/globals';
     selector: 'app-raiding-base',
     templateUrl: './raiding-base.component.html',
     styleUrls: ['./raiding-base.component.scss'],
+    host: {
+        class: 'd-flex flex-fill',
+    },
 })
 export class RaidingBaseComponent implements OnInit {
     activeItem: 'schedule' | 'expectations' | 'heroic' | 'mythic' | 'loot' | 'signup';

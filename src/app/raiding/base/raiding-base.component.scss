@@ -1,0 +1,7 @@
+:host ::ng-deep {
+    .tab-pane.active {
+        display: flex !important;
+        flex: 1 1 auto !important;
+        flex-direction: column;
+    }
+}

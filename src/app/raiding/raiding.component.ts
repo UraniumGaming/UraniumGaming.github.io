@@ -4,6 +4,9 @@ import { Component, OnInit } from '@angular/core';
     selector: 'app-raiding',
     templateUrl: './raiding.component.html',
     styleUrls: ['./raiding.component.scss'],
+    host: {
+        class: 'd-flex flex-fill',
+    },
 })
 export class RaidingComponent {
     activateRoute(component: any): void {
