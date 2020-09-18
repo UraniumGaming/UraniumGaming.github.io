@@ -26,12 +26,13 @@ const routes: Routes = [
         loadChildren: () => import('./raiding/raiding.module').then(m => m.RaidingModule),
     },
     {
-        path: 'guild-info',
-        loadChildren: () => import('./guild-info/guild-info.module').then(m => m.GuildInfoModule)
+        path: 'guild-info', 
+        loadChildren: () => import('./guild-info/guild-info.module').then(m => m.GuildInfoModule) 
     },
     {
-        path: 'resources',
-        loadChildren: () => import('./resources/resources.module').then(m => m.ResourcesModule)
+        path: 'resources',  
+        loadChildren: () =>
+            import('./resources/resources.module').then(m => m.ResourcesModule)
     },
     {
         path: '**',
