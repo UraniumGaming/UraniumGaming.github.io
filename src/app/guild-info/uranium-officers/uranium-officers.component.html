@@ -14,124 +14,43 @@
         </p>
     </div>
 </div>
+
 <hr>
-<!-- Darnell/Danny -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/blank.jpg" class="w-100">
+
+<ng-container *ngFor="let o of officers; let i = index">
+    <div *ngIf="i % 2 == 0" class="row mx-0">
+        <div class="row">
+            <div class="col-6 d-flex flex-column">
+                <img [src]="resolveUrl(officers[i]?.imageUrl)" class="mw-75 m-auto">
+            </div>
+            <div class="col-6 d-flex flex-column" *ngIf="officers.length > i + 1">
+                <img [src]="resolveUrl(officers[i + 1]?.imageUrl)" class="mw-75 m-auto">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 h-100 mb-0">
+                <h1 class="text-center">[{{ officers[i].title }}]</h1>
+            </div>
+            <div class="col-6 h-100 mb-0" *ngIf="officers.length > i + 1">
+                <h1 class="text-center">[{{ officers[i + 1].title }}]</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 h-100">
+                <h1 class="text-center">{{ officers[i].name }}</h1>
+            </div>
+            <div class="col-6 h-100" *ngIf="officers.length > i + 1">
+                <h1 class="text-center">{{ officers[i + 1].name }}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                {{ resolveDescription(officers[i])  }}
+            </div>
+            <div class="col-6">
+                {{ resolveDescription(officers[i + 1])  }}
+            </div>
+        </div>
     </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center">[Commanding Officer] Darnell</h1>
-        <p>
-            Hi, I'm Darnell. I didn't provide info or a picture for the website!
-        </p>
-    </div>
-</div>
-<hr>
-<!-- Rin/Astryder/Astakyr -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/rin-astryder.jpg" class="w-100">
-    </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center">[Executive Officer] Astakyr</h1>
-        <p>
-            Hi, I'm Astakyr. I didn't provide info for the website!
-        </p>
-    </div>
-</div>
-<hr>
-<!-- Scoffs -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/scoffsstab.jpg" class="w-100">
-    </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center scoff-font">[Raid Leader][Gold Team] Scoffsstab</h1>
-        <p>
-            Hi, I’m Chris, purveyor of exquisite tattoos and fine roguishery. I’m in charge of making sure we do the
-            things to kill the big monsters. Also I’m a career bartender so I’m in charge of what happens usually if we
-            DON’T kill the big monsters.
-        </p>
-    </div>
-</div>
-<hr>
-<!-- Luke / Felowynn -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/luke-felowynn.jpg" class="w-100">
-    </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center">[Raid Leader][Blue Team] Luke / Felowynn</h1>
-        <p>
-            Hey my name is Luke. I've been long time friends with some of the guild leadership since I was but a wee
-            lad. I play second fiddle to our good man Scoff making sure that we still kill the slightly less large and
-            scary monsters. I enjoy seeing new faces and watching the guild grow as a community. Personally, I rather
-            enjoy traveling and nice hats.
-        </p>
-    </div>
-</div>
-<hr>
-<!-- Ben / Aelionys -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/ben-aelionys.jpg" class="w-100">
-    </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center">[Recruiting Officer] Ben / Aelionys</h1>
-        <p>
-            Ben here AKA Aelionys, been a part of the guild since the beginning of BFA. I help with finding members that
-            want to have fun and are willing to take on the challenges World of Warcraft has to offer. Am always willing
-            to help when I can and love seeing the guild grow. I look forward to smashing each raid tier and the
-            exciting times we will have with fellow guildies. If you have any question feel free to reach out on Discord
-            or in game. Favorite WoW quote, “Sometime the hand of fate must be forced.”
-        </p>
-    </div>
-</div>
-<hr>
-<!-- Valinar -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/valinar.jpg" class="w-100">
-    </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center">[Events Coordinator] Valinar</h1>
-        <p>
-            Hey I'm Athlavard (ign Valinar). I'm a long time WoW addict and gamer. I've held various leadership roles in
-            established guilds and communities over the years and used to run a fairly popular minecraft server back in
-            the day. My first goal is always to help facilitate a welcoming and active community and I'm looking forward
-            to seeing this one grow. See you in Azeroth!
-        </p>
-    </div>
-</div>
-<hr>
-<!-- Dingus -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/mc-dingus.png" class="w-100">
-    </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center">[DPS Lead] McDingus</h1>
-        <p>
-            Formed during the most bodacious metal riff known to man whilst lightning struck a flaming unicorn, McDingus
-            was brought into this world to hack, slash, and otherwise kick ass. Bearing the mark of Rage, his temper can
-            only be quelled by l33t d33ps and gummy bears. Armed with his Beard of Destiny, he seeks to triumph over
-            AOTC and Cutting Edge at every turn, striking down trash and looking sick as hell doing it. With his trusty
-            chicken steed "Thic Dingus", he charges into battle knowing only the badass smacks he reigns upon his
-            enemies will bring about his salvation.
-        </p>
-    </div>
-</div>
-<hr>
-<!-- Rinny -->
-<div class="row">
-    <div class="col-lg-6 col-12">
-        <img src="assets/officers/blank.jpg" class="w-100">
-    </div>
-    <div class="col-lg-6 col-12">
-        <h1 class="text-lg-left text-center">[Heal Lead] Rinny</h1>
-        <p>
-            Hi, I'm Rinny. I didn't provide info or a picture for the website!
-        </p>
-    </div>
-</div>
+    <hr *ngIf="i % 2 == 0">
+</ng-container>
