@@ -1,4 +1,4 @@
-name: workflow
+name: Lint Project
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ on:
     branches:
       - master
 jobs:
-  lint:
+  'Run-Linter':
     runs-on: ubuntu-18.04
     timeout-minutes: 5
     steps:
