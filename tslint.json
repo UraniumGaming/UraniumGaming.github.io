@@ -248,13 +248,5 @@
         "no-var-before-return": true,
         // tslint-clean-code
         "no-map-without-usage": true
-    },
-    "linterOptions": {
-        "exclude": [
-            "projects/common/src/lib/shared/util/positioning.ts",
-            "projects/common/src/lib/shared/util/focus-trap.ts",
-            "projects/common/src/lib/shared/util/autoclose.ts",
-            "projects/common/src/lib/shared/components/datepicker/**"
-        ]
     }
 }

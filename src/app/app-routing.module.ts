@@ -27,11 +27,11 @@ const routes: Routes = [
     },
     {
         path: 'guild-info',
-        loadChildren: () => import('./guild-info/guild-info.module').then(m => m.GuildInfoModule)
+        loadChildren: () => import('./guild-info/guild-info.module').then(m => m.GuildInfoModule),
     },
     {
         path: 'resources',
-        loadChildren: () => import('./resources/resources.module').then(m => m.ResourcesModule)
+        loadChildren: () => import('./resources/resources.module').then(m => m.ResourcesModule),
     },
     {
         path: '**',
