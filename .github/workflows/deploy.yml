@@ -22,6 +22,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
-          FOLDER: build
+          FOLDER: dist
           CLEAN: true
           COMMIT_MESSAGE: Deploy $GITHUB_RUN_ID
