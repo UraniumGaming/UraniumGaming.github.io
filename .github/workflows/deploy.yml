@@ -24,4 +24,4 @@ jobs:
           BRANCH: gh-pages
           FOLDER: dist
           CLEAN: true
-          COMMIT_MESSAGE: Deploy $GITHUB_RUN_ID
+          COMMIT_MESSAGE: Deploy ${{ env.GITHUB_RUN_ID }}
