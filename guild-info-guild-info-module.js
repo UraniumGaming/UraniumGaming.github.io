@@ -497,13 +497,13 @@ GuildInfoModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineIn
 /*!**********************************************************************!*\
   !*** ./src/app/guild-info/uranium-officers/uranium-officers.data.ts ***!
   \**********************************************************************/
-/*! exports provided: OFFICER_DATA */
+/*! exports provided: DATA */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OFFICER_DATA", function() { return OFFICER_DATA; });
-const OFFICER_DATA = [
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DATA", function() { return DATA; });
+const DATA = [
     {
         title: 'Commanding Officer',
         name: 'Darnell',
@@ -690,7 +690,7 @@ function UraniumOfficersComponent_ng_container_9_Template(rf, ctx) { if (rf & 1)
 class UraniumOfficersComponent {
     constructor(globals) {
         this.globals = globals;
-        this.officers = _uranium_officers_data__WEBPACK_IMPORTED_MODULE_1__["OFFICER_DATA"];
+        this.officers = _uranium_officers_data__WEBPACK_IMPORTED_MODULE_1__["DATA"];
     }
     ngOnInit() {
         this.globals.titleName = 'Your Officers';
