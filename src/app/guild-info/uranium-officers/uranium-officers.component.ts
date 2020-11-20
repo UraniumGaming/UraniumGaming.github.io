@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Globals } from 'app/globals';
-import { of } from 'rxjs';
 import { OfficerData, OFFICER_DATA } from './uranium-officers.data';
 
 @Component({

@@ -24,6 +24,7 @@
                        ngbDropdownToggle
                        [routerLink]="[item.routerLink]"
                        [routerLinkActive]="'active'"
+                       [fragment]="item.fragment"
                        ngbDropdownAnchor
                        (mouseover)="closeDropdowns(); drop.open()"
                     >

@@ -5,5 +5,4 @@ import { Component } from '@angular/core';
     templateUrl: './heroic-raiding.component.html',
 })
 export class HeroicRaidingComponent {
-
 }

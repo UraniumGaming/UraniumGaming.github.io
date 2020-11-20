@@ -1,19 +1,21 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Globals } from 'app/globals';
 
 @Component({
     selector: 'app-raiding-base',
-    templateUrl: './raiding-base.component.html',
-    styleUrls: ['./raiding-base.component.scss'],
+    templateUrl: './general-raiding.component.html',
+    styleUrls: ['./general-raiding.component.scss'],
     host: {
         class: 'd-flex flex-fill',
     },
 })
-export class RaidingBaseComponent implements OnInit {
-    activeItem: 'schedule' | 'expectations' | 'heroic' | 'mythic' | 'loot' | 'signup';
+export class GeneralRaidingComponent implements OnInit {
+    activeItem: 'schedule' | 'expectations' | 'loot';
 
     constructor(
         private globals: Globals,
+        public route: ActivatedRoute,
     ) {
     }
 

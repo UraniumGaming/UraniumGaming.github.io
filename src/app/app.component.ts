@@ -25,12 +25,24 @@ export class AppComponent {
         {
             itemName: 'raiding',
             routerLink: '/raiding',
+            fragment: 'schedule',
             itemText: 'Raiding',
             innerItems: [
                 {
                     itemName: 'raiding-general',
                     routerLink: '/raiding',
-                    itemText: 'Raiding Info',
+                    fragment: 'schedule',
+                    itemText: 'General Info',
+                },
+                {
+                    itemName: 'mythic-team',
+                    routerLink: '/raiding/mythic',
+                    itemText: 'Mythic Team',
+                },
+                {
+                    itemName: 'heroic-team',
+                    routerLink: '/raiding/heroic',
+                    itemText: 'Heroic Team',
                 },
                 {
                     itemName: 'raiding-strats',

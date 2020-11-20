@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { RaidingBaseComponent } from 'app/raiding/base/raiding-base.component';
-import { RaidingStratsComponent } from 'app/raiding/strats/raiding-strats.component';
-
+import { GeneralRaidingComponent } from './general/general-raiding.component';
+import { HeroicRaidingComponent } from './heroic/heroic-raiding.component';
+import { MythicRaidingComponent } from './mythic/mythic-raiding.component';
 import { RaidingComponent } from './raiding.component';
+import { RaidingStratsComponent } from './strats/raiding-strats.component';
 
 const routes: Routes = [
     {
@@ -13,7 +14,15 @@ const routes: Routes = [
             {
                 path: '',
                 pathMatch: 'full',
-                component: RaidingBaseComponent,
+                component: GeneralRaidingComponent,
+            },
+            {
+                path: 'mythic',
+                component: MythicRaidingComponent,
+            },
+            {
+                path: 'heroic',
+                component: HeroicRaidingComponent,
             },
             {
                 path: 'strats',

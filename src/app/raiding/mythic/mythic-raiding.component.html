@@ -1,0 +1,161 @@
+<ul ngbNav
+    #nav=ngbNav
+    [activeId]="route.fragment | async"
+    (activeIdChange)="activeItem = $event"
+    class="nav-pills col-lg-2 col-sm-3 col-4"
+    orientation="vertical"
+>
+    <li ngbNavItem="abilities">
+        <a ngbNavLink routerLink="." fragment="abilities">Abilities</a>
+        <ng-template ngbNavContent>
+            <h3><u>Abilities</u></h3>
+            <p class="mb-1">
+                First and foremost, it comes as no shock that a mythic raider should be the best a guild has to offer.
+                This includes knowledge of their class, their parses, and general raid awareness, but it also means
+                flexibility, mental resolve, and determination.
+            </p>
+            <dl class="row">
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Knowledge</dt>
+                <dd class="col-lg-9">
+                    It is expected that you know how to play your class and are constantly seeking out ways to improve
+                    that gameplay experience for yourself and for the benefit of the raid group. More knowledge leads to
+                    more DPS which leads to better parses. That same though process extends to fights. Read our slides
+                    and strats and intimately familiarize yourself with them.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Parses</dt>
+                <dd class="col-lg-9">
+                    Parse are the best metric to understand your personal performance compared to the WoW community
+                    around the world. Because of this, it is also our best metric to determine that performance. We
+                    require parses around an 80% for heroic fights once they are on farm. That same parse level must be
+                    maintained for re-clear bosses through mythic raids as well.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">General Awareness</dt>
+                <dd class="col-lg-9">
+                    While we assure that important mechanics will be called out in a fight, we do expect that you are
+                    able to keep track of personal mechanics as well as perform to the best of your abilities. We do not
+                    want to hold everyone's hand through mythic content.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Flexibility</dt>
+                <dd class="col-lg-9">
+                    Although we will have a core roster with our main characters, there may be times when we will
+                    request a specific class or spec for fights during progression. To be much better prepared for that,
+                    we ask you to have an alt you are also proficient with that is equivalently geared. This will allow
+                    us to construct the best possible strategies for success. Being flexible on an individual level also
+                    means being able to pivot strategies as we progress into fights.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Mental Resolve</dt>
+                <dd class="col-lg-9">
+                    The mythic raid team is a fluid construct and subject to change. We encourage competition between
+                    players to keep everyone as sharp and competent as possible. With that said, we also analyze and
+                    correct underperformance before we look to replace players. If an officer comes to you about
+                    performance, we expect you to accept that criticism and work with them to determine the best method
+                    of increasing that performance. We're not personally attacking anyone when we do this; if we didn't
+                    think you were a good player, you wouldn't be on the team. Deflecting that responsibility or
+                    refusing to work with an officer will <strong><em>NOT</em></strong> be received well.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Determination</dt>
+                <dd class="col-lg-9">
+                    Mythic progression means wiping, it means strategizing on the fly when necessary, it means healers
+                    having to coordinate pre-pull on a pull-by-pull basis. It means cracking hard at attempts with a
+                    couple scheduled breaks and not much else in between. Wanting to raid mythic is accepting all of the
+                    glory, hard work, and office talk that comes with it.
+                </dd>
+            </dl>
+        </ng-template>
+    </li>
+    <li ngbNavItem="attitude">
+        <a ngbNavLink routerLink="." fragment="attitude">Attitude</a>
+        <ng-template ngbNavContent>
+            <h3><u>Attitude</u></h3>
+            <p class="mb-1">
+                While mythic raid does require focus and concentration, it is still a community event in the guild. We
+                should be a group that enjoys playing with each other, as opposed to a task force cobbled together to
+                begrudgingly co-exist for 6 hours a week. Factors that play into how well mythic progression can go
+                include: morale, eliminating elitism, willingness to improve, and personal responsibility.
+            </p>
+            <dl class="row">
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Morale</dt>
+                <dd class="col-lg-9">
+                    Don't come to raid prepared to fail; come to raid prepared to learn and progress a fight. If you
+                    find yourself dreading mythic raid night, speak to the raid lead, melee lead, heal lead, or guild
+                    leader. We will do our best to alleviate the concern, but it may also come down to needing a break.
+                    Understand when is and is not an appropriate time to good off. If we're in the pull timer, now isn't
+                    the time to recant a funny story that happened to you. Talk and banter all the way up until a boss,
+                    during trash, when walking back from wipes. But, when it's time to crack attempts, keep spirits high
+                    and unnecessary talking to a minimum.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Eliminating Elitism</dt>
+                <dd class="col-lg-9">
+                    If you're too good for our guild or our requirements, you're more than welcome to apply to
+                    Complexity Limit or Method. We will not be finger pointing, belittling, or promoting an attitude
+                    that certain people are carrying the raid team. Performance will constantly be monitored and
+                    replacements will be made if people aren't conforming to that mantra. In that same regard, an
+                    elitist attitude will not be tolerated towards other guild members.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Willingness to Improve</dt>
+                <dd class="col-lg-9">
+                    Until every member of the raid is parsing 100 overall on every fight, there's constantly room for
+                    improvement. If we need to squeeze a bit more out of the raid group, we will certainly facilitate
+                    that in any way we possibly can. As stated previously, if any member of the raid leadership comes
+                    forward with concerns, suggestion or critique, do not take it as a personal attack.
+                </dd>
+                <hr class="my-1"/>
+                <dt class="col-lg-3">Personal Responsibility</dt>
+                <dd class="col-lg-9">
+                    During raids, if you mess up a mechanic, don't make excuses for yourself and why you couldn't do it.
+                    Own your mistake and call it out after the pull when we discuss what happened with that attempt.
+                    Bring any materials required to raid if we can't provide them that week through the guild bank.
+                    Research how you can play your class better. Stay on to pof your gear and your M+; I know it's
+                    tedious to some people, but pushing keys is the best method for acquiring gear outside of raid. We
+                    will need everyone on their toes to min-max their gear and performance, especially considering a
+                    lot of our progression time will be spent in pre-nerf raids.
+                </dd>
+            </dl>
+        </ng-template>
+    </li>
+    <li ngbNavItem="availability">
+        <a ngbNavLink routerLink="." fragment="availability">Availability</a>
+        <ng-template ngbNavContent>
+            <h3><u>Availability</u></h3>
+            <p>
+                There's honestly not too much to say here: make sure you can make raid nights and can maintain
+                attendance as outlined on the <a [routerLink]="'/guild-info/rules'">Uranium Guild Rules</a> page and on
+                the <a [routerLink]="'/raiding#schedules'">General Raider Expectations</a> page. Aside from that, I
+                would encourage you to be incredibly active in the guild. Have a solid amount of online time, help other
+                people with keys, socialize with fellow members, and promote our community. As a mythic raider, you are
+                the ambassadors of our guild to those fresh recruits and those randoms in the M+ you pugged. Help us
+                make this one of the best guilds on Stormrage by being the best "YOU" that you can be.
+            </p>
+        </ng-template>
+    </li>
+    <li ngbNavItem="requirements">
+        <a ngbNavLink routerLink="." fragment="requirements">Hard Requirements</a>
+        <ng-template ngbNavContent>
+            <h3><u>Hard Requirements</u></h3>
+        </ng-template>
+    </li>
+    <li ngbNavItem="signup">
+        <a ngbNavLink routerLink="." fragment="signup">Apply</a>
+        <ng-template ngbNavContent>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzlPQTX-YExmyk9wTmlt99-VsLUeQ91Kmzg-rGUAeIm5N6Gg/viewform?embedded=true"
+                    class="w-100 d-flex flex-fill"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+            >
+                Loading...
+            </iframe>
+        </ng-template>
+    </li>
+</ul>
+
+<div [ngbNavOutlet]="nav" class="ml-4 col-lg-10 d-flex flex-fill flex-column"></div>
