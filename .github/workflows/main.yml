@@ -8,14 +8,14 @@ on:
       - master
 jobs:
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - name: Prepare
         run: npm ci
       - name: Lint
-        uses: mooyoul/tslint-actions@master
+        uses: mooyoul/tslint-actions@v1.1.2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          project: './tsconfig.json'
+          pattern: 'src/**/*.ts'
