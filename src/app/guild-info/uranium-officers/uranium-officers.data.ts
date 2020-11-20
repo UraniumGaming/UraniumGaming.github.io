@@ -5,7 +5,7 @@ export interface OfficerData {
     description: string;
 }
 
-export const OFFICER_DATA: OfficerData[] = [
+export const DATA: OfficerData[] = [
     {
         title: 'Commanding Officer',
         name: 'Darnell',
@@ -63,10 +63,4 @@ export const OFFICER_DATA: OfficerData[] = [
         description: null,
         imageUrl: null,
     },
-    // {
-    //     title: '',
-    //     name: '',
-    //     description: '',
-    //     imageUrl: '',
-    // },
 ];

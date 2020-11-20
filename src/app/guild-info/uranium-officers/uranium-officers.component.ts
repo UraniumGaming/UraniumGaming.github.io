@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Globals } from 'app/globals';
-import { OfficerData, OFFICER_DATA } from './uranium-officers.data';
+import { DATA, OfficerData } from './uranium-officers.data';
 
 @Component({
     selector: 'app-uranium-officers',
@@ -8,7 +8,7 @@ import { OfficerData, OFFICER_DATA } from './uranium-officers.data';
     styleUrls: ['./uranium-officers.component.scss'],
 })
 export class UraniumOfficersComponent implements OnInit {
-    officers: OfficerData[] = OFFICER_DATA;
+    officers: OfficerData[] = DATA;
 
     constructor(
         private globals: Globals,
