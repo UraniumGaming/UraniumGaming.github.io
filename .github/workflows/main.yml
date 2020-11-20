@@ -1,7 +1,13 @@
 name: workflow
-on: [ pull_request, push ]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 jobs:
-  job:
+  lint:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
