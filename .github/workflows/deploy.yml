@@ -12,16 +12,16 @@ jobs:
         with:
           persist-credentials: false
 
-        - name: Install and Build 🔧
-          run: |
-            npm ci
-            npm run build
+      - name: Install and Build 🔧
+        run: |
+          npm ci
+          npm run build
 
-        - name: Deploy 🚀
-          uses: JamesIves/github-pages-deploy-action@3.7.1
-          with:
-            GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN }}
-            BRANCH: gh-pages
-            FOLDER: build
-            CLEAN: true
-            COMMIT_MESSAGE: Deploy $GITHUB_RUN_ID
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          CLEAN: true
+          COMMIT_MESSAGE: Deploy $GITHUB_RUN_ID
