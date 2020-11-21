@@ -262,9 +262,46 @@ function MythicRaidingComponent_ng_template_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Hard Requirements");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Obviously, we do have some hard requirements for mythic raiders, and to even be considered, you will have to meet those requirements. Some of these may have previously been stated in this section, but here they are together for convenience. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "dl", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "hr", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Parses");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " You are required to maintain a per-ilvl parse of 80 or higher to join the team. This can be from any logs of heroic runs inside or outside the guild. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "hr", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Legendaries");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " You must have your best-in-slot raid legendary, no exceptions. A full list of them can be found ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " on WowHead ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, ". ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "hr", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Item Level");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " Bare minimum requirement here is ilvl 210 to be considered for the group. This is full gear from Mythic+ 14 and 15 keys while mixing in some heroic progression at minimum. This hard limit exists to ensure everyone is putting forth effort to get geared. If our start date for progression arrives and it seems highly unreasonable for everyone to have obtained this, there will be a change to the number to reflect something more reasonable (although this is not likely). ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "hr", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Soulbinds and Conduits");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " We understand the full tree will not be available, but we do need everyone to be as far along as reasonably possible. This means you will need to be progressing through your covenant campaign, the Shadowlands campaign, and be visiting The Maw as much as is possible when it is open. Dailies, dailies, dailies people! ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
 function MythicRaidingComponent_ng_template_22_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "iframe", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "iframe", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Loading... ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
@@ -278,7 +315,7 @@ class MythicRaidingComponent {
     }
 }
 MythicRaidingComponent.ɵfac = function MythicRaidingComponent_Factory(t) { return new (t || MythicRaidingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](app_globals__WEBPACK_IMPORTED_MODULE_1__["Globals"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
-MythicRaidingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MythicRaidingComponent, selectors: [["mythic-raiding"]], hostAttrs: [1, "d-flex", "flex-fill"], decls: 24, vars: 4, consts: [["ngbNav", "", "orientation", "vertical", 1, "nav-pills", "col-lg-2", "col-sm-3", "col-4", 3, "activeId", "activeIdChange"], ["nav", "ngbNav"], ["ngbNavItem", "abilities"], ["ngbNavLink", "", "routerLink", ".", "fragment", "abilities"], ["ngbNavContent", ""], ["ngbNavItem", "attitude"], ["ngbNavLink", "", "routerLink", ".", "fragment", "attitude"], ["ngbNavItem", "availability"], ["ngbNavLink", "", "routerLink", ".", "fragment", "availability"], ["ngbNavItem", "requirements"], ["ngbNavLink", "", "routerLink", ".", "fragment", "requirements"], ["ngbNavItem", "signup"], ["ngbNavLink", "", "routerLink", ".", "fragment", "signup"], [1, "ml-4", "col-lg-10", "d-flex", "flex-fill", "flex-column", 3, "ngbNavOutlet"], [1, "mb-1"], [1, "row"], [1, "my-1"], [1, "col-lg-3"], [1, "col-lg-9"], [3, "routerLink"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]("https://docs.google.com/forms/d/e/1FAIpQLSdzlPQTX-YExmyk9wTmlt99-VsLUeQ91Kmzg-rGUAeIm5N6Gg/viewform?embedded=true"), "frameborder", "0", "marginheight", "0", "marginwidth", "0", 1, "w-100", "d-flex", "flex-fill"]], template: function MythicRaidingComponent_Template(rf, ctx) { if (rf & 1) {
+MythicRaidingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MythicRaidingComponent, selectors: [["mythic-raiding"]], hostAttrs: [1, "d-flex", "flex-fill"], decls: 24, vars: 4, consts: [["ngbNav", "", "orientation", "vertical", 1, "nav-pills", "col-lg-2", "col-sm-3", "col-4", 3, "activeId", "activeIdChange"], ["nav", "ngbNav"], ["ngbNavItem", "abilities"], ["ngbNavLink", "", "routerLink", ".", "fragment", "abilities"], ["ngbNavContent", ""], ["ngbNavItem", "attitude"], ["ngbNavLink", "", "routerLink", ".", "fragment", "attitude"], ["ngbNavItem", "availability"], ["ngbNavLink", "", "routerLink", ".", "fragment", "availability"], ["ngbNavItem", "requirements"], ["ngbNavLink", "", "routerLink", ".", "fragment", "requirements"], ["ngbNavItem", "signup"], ["ngbNavLink", "", "routerLink", ".", "fragment", "signup"], [1, "ml-4", "col-lg-10", "d-flex", "flex-fill", "flex-column", 3, "ngbNavOutlet"], [1, "mb-1"], [1, "row"], [1, "my-1"], [1, "col-lg-3"], [1, "col-lg-9"], [3, "routerLink"], ["href", "https://www.wowhead.com/guides/best-legendary-all-shadowlands-dps-tank-healer-classes-raids-mythic-plus"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]("https://docs.google.com/forms/d/e/1FAIpQLSdzlPQTX-YExmyk9wTmlt99-VsLUeQ91Kmzg-rGUAeIm5N6Gg/viewform?embedded=true"), "frameborder", "0", "marginheight", "0", "marginwidth", "0", 1, "w-100", "d-flex", "flex-fill"]], template: function MythicRaidingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "ul", 0, 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("activeIdChange", function MythicRaidingComponent_Template_ul_activeIdChange_0_listener($event) { return ctx.activeItem = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "async");
@@ -304,7 +341,7 @@ MythicRaidingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Hard Requirements");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, MythicRaidingComponent_ng_template_18_Template, 3, 0, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, MythicRaidingComponent_ng_template_18_Template, 29, 0, "ng-template", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 12);
