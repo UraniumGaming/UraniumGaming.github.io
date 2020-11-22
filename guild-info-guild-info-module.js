@@ -508,7 +508,7 @@ const DATA = [
         title: 'Commanding Officer',
         name: 'Darnell',
         description: null,
-        imageUrl: null,
+        imageUrl: 'assets/officers/danny.jpg',
     },
     {
         title: 'Executive Officer',
@@ -526,12 +526,9 @@ const DATA = [
     },
     {
         title: 'Raid Leader][Blue Team',
-        name: 'Luke / Felowynn',
-        description: 'Hey my name is Luke. I\'ve been long time friends with some of the guild leadership since I ' +
-            'was but a wee lad. I play second fiddle to our good man Scoff making sure that we still kill the ' +
-            'slightly less large and scary monsters. I enjoy seeing new faces and watching the guild grow as a ' +
-            'community. Personally, I rather enjoy traveling and nice hats.',
-        imageUrl: 'assets/officers/luke-felowynn.jpg',
+        name: 'Vacancy',
+        description: 'There is currently an open vacancy for this position.',
+        imageUrl: null,
     },
     {
         title: 'Recruiting Officer',
