@@ -5,6 +5,7 @@ import { Globals } from 'app/globals';
 @Component({
     selector: 'mythic-raiding',
     templateUrl: './mythic-raiding.component.html',
+    styleUrls: ['./mythic-raiding.component.scss'],
     host: {
         class: 'd-flex flex-fill',
     },

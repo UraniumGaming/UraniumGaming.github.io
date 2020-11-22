@@ -5,6 +5,59 @@
     class="nav-pills col-lg-2 col-sm-3 col-4"
     orientation="vertical"
 >
+    <li ngbNavItem="operation">
+        <a ngbNavLink routerLink="." fragment="operation">Operation</a>
+        <ng-template ngbNavContent>
+            <h3><u>Mythic Team Operation</u></h3>
+            <p>
+                Here's how the mythic team operates. This is subject to change, but it's fairly established for the time
+                being.
+            </p>
+            <ul>
+                <li>23-24 person raid team. The bench will frequently rotate in based on gear and experience.</li>
+                <li>
+                    CO will maintain a roster with weekly updates on who is in for each boss and who is on the bench.
+                </li>
+                <li>2 nights per week, 3 hour raid nights that start and end on time.</li>
+                <li>Cutting Edge completion before the end of tier.</li>
+                <li><strong>[Start of tier]</strong> Raid and Healing lead design their ideal class comp, then make cuts
+                    based
+                    on raider trialing during heroic raid completion.
+                </li>
+                <li>Bring the player, not the class.</li>
+            </ul>
+        </ng-template>
+    </li>
+    <li ngbNavItem="recruitment">
+        <a ngbNavLink routerLink="." fragment="recruitment">Recruitment</a>
+        <ng-template ngbNavContent>
+            <h3><u>Becoming a Uranium Mythic Raider</u></h3>
+            <p>
+                Make sure you complete or meet all of the items listed below:
+            </p>
+            <ul>
+                <li>Meet the mythic team requirements set below. Please read them all.</li>
+                <li>Fill out a mythic application.</li>
+                <li>Read and agree with the general raider expectations on the other pages.</li>
+                <li>
+                    <strong>[Start of tier]</strong> Heroic raid will be used to trial prospective raiders. We will make
+                    cuts
+                    and announce the mythic progression roster after AOTC completion.
+                </li>
+                <li>
+                    If you don't have recent experience of warcraft logs to meet the requirements, join a Uranium
+                    heroic raid team and reapply for the mythic team later. You may run non-Uranium heroic raids to get
+                    your logs up, but we want to see what kind of person you are prior to inviting you along for mythic
+                    progression.
+                </li>
+                <li>
+                    Previous tier Cutting Edge raiders will be guaranteed trial spots if we have more than 30 people on
+                    the AOTC progression team. It does <em><strong>not</strong></em> however guarantee a spot in the
+                    next tier's progression team.
+                </li>
+            </ul>
+        </ng-template>
+    </li>
     <li ngbNavItem="abilities">
         <a ngbNavLink routerLink="." fragment="abilities">Abilities</a>
         <ng-template ngbNavContent>
@@ -181,7 +234,7 @@
             </dl>
         </ng-template>
     </li>
-    <li ngbNavItem="signup">
+    <li ngbNavItem="signup" domId="signup-tab">
         <a ngbNavLink routerLink="." fragment="signup">Apply</a>
         <ng-template ngbNavContent>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdzlPQTX-YExmyk9wTmlt99-VsLUeQ91Kmzg-rGUAeIm5N6Gg/viewform?embedded=true"

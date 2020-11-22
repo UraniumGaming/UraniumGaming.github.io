@@ -1,0 +1,7 @@
+:host ::ng-deep {
+    #signup-tab-panel {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+    }
+}
