@@ -136,46 +136,118 @@ __webpack_require__.r(__webpack_exports__);
 function MythicRaidingComponent_ng_template_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "u");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Mythic Team Operation");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Here's how the mythic team operates. This is subject to change, but it's fairly established for the time being. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "23-24 person raid team. The bench will frequently rotate in based on gear and experience.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, " CO will maintain a roster with weekly updates on who is in for each boss and who is on the bench. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "2 nights per week, 3 hour raid nights that start and end on time.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Cutting Edge completion before the end of tier.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "[Start of tier]");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Raid and Healing lead design their ideal class comp, then make cuts based on raider trialing during heroic raid completion. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Bring the player, not the class.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function MythicRaidingComponent_ng_template_10_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "u");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Becoming a Uranium Mythic Raider");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Make sure you complete or meet all of the items listed below: ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "ul");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Meet the mythic team requirements set below. Please read them all.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Fill out a mythic application.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Read and agree with the general raider expectations on the other pages.");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "[Start of tier]");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Heroic raid will be used to trial prospective raiders. We will make cuts and announce the mythic progression roster after AOTC completion. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " If you don't have recent experience of warcraft logs to meet the requirements, join a Uranium heroic raid team and reapply for the mythic team later. You may run non-Uranium heroic raids to get your logs up, but we want to see what kind of person you are prior to inviting you along for mythic progression. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "li");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " Previous tier Cutting Edge raiders will be guaranteed trial spots if we have more than 30 people on the AOTC progression team. It does ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "em");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "strong");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "not");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " however guarantee a spot in the next tier's progression team. ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function MythicRaidingComponent_ng_template_14_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "u");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Abilities");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " First and foremost, it comes as no shock that a mythic raider should be the best a guild has to offer. This includes knowledge of their class, their parses, and general raid awareness, but it also means flexibility, mental resolve, and determination. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "dl", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "dl", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Knowledge");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " It is expected that you know how to play your class and are constantly seeking out ways to improve that gameplay experience for yourself and for the benefit of the raid group. More knowledge leads to more DPS which leads to better parses. That same though process extends to fights. Read our slides and strats and intimately familiarize yourself with them. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Parses");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " Parse are the best metric to understand your personal performance compared to the WoW community around the world. Because of this, it is also our best metric to determine that performance. We require parses around an 80% for heroic fights once they are on farm. That same parse level must be maintained for re-clear bosses through mythic raids as well. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "General Awareness");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " While we assure that important mechanics will be called out in a fight, we do expect that you are able to keep track of personal mechanics as well as perform to the best of your abilities. We do not want to hold everyone's hand through mythic content. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Flexibility");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " Although we will have a core roster with our main characters, there may be times when we will request a specific class or spec for fights during progression. To be much better prepared for that, we ask you to have an alt you are also proficient with that is equivalently geared. This will allow us to construct the best possible strategies for success. Being flexible on an individual level also means being able to pivot strategies as we progress into fights. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Mental Resolve");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " The mythic raid team is a fluid construct and subject to change. We encourage competition between players to keep everyone as sharp and competent as possible. With that said, we also analyze and correct underperformance before we look to replace players. If an officer comes to you about performance, we expect you to accept that criticism and work with them to determine the best method of increasing that performance. We're not personally attacking anyone when we do this; if we didn't think you were a good player, you wouldn't be on the team. Deflecting that responsibility or refusing to work with an officer will ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "strong");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "em");
@@ -184,56 +256,56 @@ function MythicRaidingComponent_ng_template_6_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " be received well. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](35, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Determination");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " Mythic progression means wiping, it means strategizing on the fly when necessary, it means healers having to coordinate pre-pull on a pull-by-pull basis. It means cracking hard at attempts with a couple scheduled breaks and not much else in between. Wanting to raid mythic is accepting all of the glory, hard work, and office talk that comes with it. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function MythicRaidingComponent_ng_template_10_Template(rf, ctx) { if (rf & 1) {
+function MythicRaidingComponent_ng_template_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "u");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Attitude");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " While mythic raid does require focus and concentration, it is still a community event in the guild. We should be a group that enjoys playing with each other, as opposed to a task force cobbled together to begrudgingly co-exist for 6 hours a week. Factors that play into how well mythic progression can go include: morale, eliminating elitism, willingness to improve, and personal responsibility. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "dl", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "dl", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Morale");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Don't come to raid prepared to fail; come to raid prepared to learn and progress a fight. If you find yourself dreading mythic raid night, speak to the raid lead, melee lead, heal lead, or guild leader. We will do our best to alleviate the concern, but it may also come down to needing a break. Understand when is and is not an appropriate time to good off. If we're in the pull timer, now isn't the time to recant a funny story that happened to you. Talk and banter all the way up until a boss, during trash, when walking back from wipes. But, when it's time to crack attempts, keep spirits high and unnecessary talking to a minimum. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Eliminating Elitism");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " If you're too good for our guild or our requirements, you're more than welcome to apply to Complexity Limit or Method. We will not be finger pointing, belittling, or promoting an attitude that certain people are carrying the raid team. Performance will constantly be monitored and replacements will be made if people aren't conforming to that mantra. In that same regard, an elitist attitude will not be tolerated towards other guild members. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Willingness to Improve");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " Until every member of the raid is parsing 100 overall on every fight, there's constantly room for improvement. If we need to squeeze a bit more out of the raid group, we will certainly facilitate that in any way we possibly can. As stated previously, if any member of the raid leadership comes forward with concerns, suggestion or critique, do not take it as a personal attack. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](21, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Personal Responsibility");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " During raids, if you mess up a mechanic, don't make excuses for yourself and why you couldn't do it. Own your mistake and call it out after the pull when we discuss what happened with that attempt. Bring any materials required to raid if we can't provide them that week through the guild bank. Research how you can play your class better. Stay on to pof your gear and your M+; I know it's tedious to some people, but pushing keys is the best method for acquiring gear outside of raid. We will need everyone on their toes to min-max their gear and performance, especially considering a lot of our progression time will be spent in pre-nerf raids. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function MythicRaidingComponent_ng_template_14_Template(rf, ctx) { if (rf & 1) {
+function MythicRaidingComponent_ng_template_22_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "u");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Availability");
@@ -241,11 +313,11 @@ function MythicRaidingComponent_ng_template_14_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " There's honestly not too much to say here: make sure you can make raid nights and can maintain attendance as outlined on the ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "a", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Uranium Guild Rules");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " page and on the ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 23);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "General Raider Expectations");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " page. Aside from that, I would encourage you to be incredibly active in the guild. Have a solid amount of online time, help other people with keys, socialize with fellow members, and promote our community. As a mythic raider, you are the ambassadors of our guild to those fresh recruits and those randoms in the M+ you pugged. Help us make this one of the best guilds on Stormrage by being the best \"YOU\" that you can be. ");
@@ -256,7 +328,7 @@ function MythicRaidingComponent_ng_template_14_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", "/raiding#schedules");
 } }
-function MythicRaidingComponent_ng_template_18_Template(rf, ctx) { if (rf & 1) {
+function MythicRaidingComponent_ng_template_26_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "u");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Hard Requirements");
@@ -265,43 +337,43 @@ function MythicRaidingComponent_ng_template_18_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Obviously, we do have some hard requirements for mythic raiders, and to even be considered, you will have to meet those requirements. Some of these may have previously been stated in this section, but here they are together for convenience. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "dl", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "dl", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Parses");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " You are required to maintain a per-ilvl parse of 80 or higher to join the team. This can be from any logs of heroic runs inside or outside the guild. ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Legendaries");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, " You must have your best-in-slot raid legendary, no exceptions. A full list of them can be found ");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 24);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " on WowHead ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, ". ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Item Level");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " Bare minimum requirement here is ilvl 210 to be considered for the group. This is full gear from Mythic+ 14 and 15 keys while mixing in some heroic progression at minimum. This hard limit exists to ensure everyone is putting forth effort to get geared. If our start date for progression arrives and it seems highly unreasonable for everyone to have obtained this, there will be a change to the number to reflect something more reasonable (although this is not likely). ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "hr", 16);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "dt", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "hr", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "dt", 21);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Soulbinds and Conduits");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "dd", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "dd", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " We understand the full tree will not be available, but we do need everyone to be as far along as reasonably possible. This means you will need to be progressing through your covenant campaign, the Shadowlands campaign, and be visiting The Maw as much as is possible when it is open. Dailies, dailies, dailies people! ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function MythicRaidingComponent_ng_template_22_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "iframe", 21);
+function MythicRaidingComponent_ng_template_30_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "iframe", 25);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, " Loading... ");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
@@ -315,53 +387,66 @@ class MythicRaidingComponent {
     }
 }
 MythicRaidingComponent.ɵfac = function MythicRaidingComponent_Factory(t) { return new (t || MythicRaidingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](app_globals__WEBPACK_IMPORTED_MODULE_1__["Globals"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
-MythicRaidingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MythicRaidingComponent, selectors: [["mythic-raiding"]], hostAttrs: [1, "d-flex", "flex-fill"], decls: 24, vars: 4, consts: [["ngbNav", "", "orientation", "vertical", 1, "nav-pills", "col-lg-2", "col-sm-3", "col-4", 3, "activeId", "activeIdChange"], ["nav", "ngbNav"], ["ngbNavItem", "abilities"], ["ngbNavLink", "", "routerLink", ".", "fragment", "abilities"], ["ngbNavContent", ""], ["ngbNavItem", "attitude"], ["ngbNavLink", "", "routerLink", ".", "fragment", "attitude"], ["ngbNavItem", "availability"], ["ngbNavLink", "", "routerLink", ".", "fragment", "availability"], ["ngbNavItem", "requirements"], ["ngbNavLink", "", "routerLink", ".", "fragment", "requirements"], ["ngbNavItem", "signup"], ["ngbNavLink", "", "routerLink", ".", "fragment", "signup"], [1, "ml-4", "col-lg-10", "d-flex", "flex-fill", "flex-column", 3, "ngbNavOutlet"], [1, "mb-1"], [1, "row"], [1, "my-1"], [1, "col-lg-3"], [1, "col-lg-9"], [3, "routerLink"], ["href", "https://www.wowhead.com/guides/best-legendary-all-shadowlands-dps-tank-healer-classes-raids-mythic-plus"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]("https://docs.google.com/forms/d/e/1FAIpQLSdzlPQTX-YExmyk9wTmlt99-VsLUeQ91Kmzg-rGUAeIm5N6Gg/viewform?embedded=true"), "frameborder", "0", "marginheight", "0", "marginwidth", "0", 1, "w-100", "d-flex", "flex-fill"]], template: function MythicRaidingComponent_Template(rf, ctx) { if (rf & 1) {
+MythicRaidingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MythicRaidingComponent, selectors: [["mythic-raiding"]], hostAttrs: [1, "d-flex", "flex-fill"], decls: 32, vars: 4, consts: [["ngbNav", "", "orientation", "vertical", 1, "nav-pills", "col-lg-2", "col-sm-3", "col-4", 3, "activeId", "activeIdChange"], ["nav", "ngbNav"], ["ngbNavItem", "operation"], ["ngbNavLink", "", "routerLink", ".", "fragment", "operation"], ["ngbNavContent", ""], ["ngbNavItem", "recruitment"], ["ngbNavLink", "", "routerLink", ".", "fragment", "recruitment"], ["ngbNavItem", "abilities"], ["ngbNavLink", "", "routerLink", ".", "fragment", "abilities"], ["ngbNavItem", "attitude"], ["ngbNavLink", "", "routerLink", ".", "fragment", "attitude"], ["ngbNavItem", "availability"], ["ngbNavLink", "", "routerLink", ".", "fragment", "availability"], ["ngbNavItem", "requirements"], ["ngbNavLink", "", "routerLink", ".", "fragment", "requirements"], ["ngbNavItem", "signup", "domId", "signup-tab"], ["ngbNavLink", "", "routerLink", ".", "fragment", "signup"], [1, "ml-4", "col-lg-10", "d-flex", "flex-fill", "flex-column", 3, "ngbNavOutlet"], [1, "mb-1"], [1, "row"], [1, "my-1"], [1, "col-lg-3"], [1, "col-lg-9"], [3, "routerLink"], ["href", "https://www.wowhead.com/guides/best-legendary-all-shadowlands-dps-tank-healer-classes-raids-mythic-plus"], ["src", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtrustConstantResourceUrl"]("https://docs.google.com/forms/d/e/1FAIpQLSdzlPQTX-YExmyk9wTmlt99-VsLUeQ91Kmzg-rGUAeIm5N6Gg/viewform?embedded=true"), "frameborder", "0", "marginheight", "0", "marginwidth", "0", 1, "w-100", "d-flex", "flex-fill"]], template: function MythicRaidingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "ul", 0, 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("activeIdChange", function MythicRaidingComponent_Template_ul_activeIdChange_0_listener($event) { return ctx.activeItem = $event; });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](2, "async");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "li", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Abilities");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Operation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, MythicRaidingComponent_ng_template_6_Template, 40, 0, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, MythicRaidingComponent_ng_template_6_Template, 20, 0, "ng-template", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "li", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Attitude");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Recruitment");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, MythicRaidingComponent_ng_template_10_Template, 26, 0, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, MythicRaidingComponent_ng_template_10_Template, 24, 0, "ng-template", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Availability");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Abilities");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, MythicRaidingComponent_ng_template_14_Template, 11, 2, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, MythicRaidingComponent_ng_template_14_Template, 40, 0, "ng-template", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li", 9);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Hard Requirements");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Attitude");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, MythicRaidingComponent_ng_template_18_Template, 29, 0, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, MythicRaidingComponent_ng_template_18_Template, 26, 0, "ng-template", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "li", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "a", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Apply");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "Availability");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, MythicRaidingComponent_ng_template_22_Template, 2, 0, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](22, MythicRaidingComponent_ng_template_22_Template, 11, 2, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Hard Requirements");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](26, MythicRaidingComponent_ng_template_26_Template, 29, 0, "ng-template", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Apply");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](30, MythicRaidingComponent_ng_template_30_Template, 2, 0, "ng-template", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "div", 17);
     } if (rf & 2) {
         const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("activeId", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](2, 2, ctx.route.fragment));
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](31);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngbNavOutlet", _r0);
-    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNav"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavItem"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavLink"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavContent"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavOutlet"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["AsyncPipe"]], encapsulation: 2 });
+    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNav"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavItem"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavLink"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavContent"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbNavOutlet"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_4__["AsyncPipe"]], styles: ["[_nghost-%COMP%]     #signup-tab-panel {\n  display: flex;\n  flex-direction: column;\n  flex: 1 1 auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL215dGhpYy1yYWlkaW5nLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNJO0VBQ0ksYUFBQTtFQUNBLHNCQUFBO0VBQ0EsY0FBQTtBQUFSIiwiZmlsZSI6Im15dGhpYy1yYWlkaW5nLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiOmhvc3QgOjpuZy1kZWVwIHtcbiAgICAjc2lnbnVwLXRhYi1wYW5lbCB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgIGZsZXg6IDEgMSBhdXRvO1xuICAgIH1cbn1cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MythicRaidingComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'mythic-raiding',
                 templateUrl: './mythic-raiding.component.html',
+                styleUrls: ['./mythic-raiding.component.scss'],
                 host: {
                     class: 'd-flex flex-fill',
                 },
