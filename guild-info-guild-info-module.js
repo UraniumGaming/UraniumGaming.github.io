@@ -555,8 +555,8 @@ const DATA = [
     {
         title: 'Heal Lead',
         name: 'Rinny',
-        description: null,
-        imageUrl: null,
+        description: 'Hi I’m Rin! I’m here to find people to play bunkers & badasses. Oh this is about WoW? Well I’m your resident heal lead, so if you have any healing questions don’t hesitate to ask. I’m also in charge of who gets benched on my healing roster... speaking of benching uh meek..',
+        imageUrl: 'assets/officers/rinny.png',
     },
 ];
 
