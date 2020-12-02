@@ -15,8 +15,11 @@ export const DATA: OfficerData[] = [
     {
         title: 'Executive Officer',
         name: 'Astakyr',
-        description: null,
-        imageUrl: null,
+        description: 'Heyo I’m Rin or Adrian whichever you prefer or remember. Avid player of video games and all ' +
+		    'things games really. I enjoy helping to keep this guild built up and running smoothly. Whether we’re ' +
+			'pushing cutting edge or winding down with a drunken night of ARAM, I’ll probably be around. Hit me up for ' +
+			'anything and I’ll be down to clown.',
+        imageUrl: 'assets/officers/adrian.jpg',
     },
     {
         title: 'Raid Leader][Gold Team',
