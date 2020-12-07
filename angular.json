@@ -22,7 +22,8 @@
                         "assets": [
                             "src/favicon.ico",
                             "src/assets",
-                            "src/CNAME"
+                            "src/CNAME",
+                            "src/404.html"
                         ],
                         "stylePreprocessorOptions": {
                             "includePaths": [
@@ -83,24 +84,6 @@
                         "browserTarget": "UraniumSite:build"
                     }
                 },
-                "test": {
-                    "builder": "@angular-devkit/build-angular:karma",
-                    "options": {
-                        "main": "src/test.ts",
-                        "polyfills": "src/polyfills.ts",
-                        "tsConfig": "tsconfig.spec.json",
-                        "karmaConfig": "karma.conf.js",
-                        "assets": [
-                            "src/favicon.ico",
-                            "src/assets",
-                            "src/404.html"
-                        ],
-                        "styles": [
-                            "src/styles.scss"
-                        ],
-                        "scripts": []
-                    }
-                },
                 "lint": {
                     "builder": "@angular-devkit/build-angular:tslint",
                     "options": {
@@ -111,10 +94,6 @@
                             "**/node_modules/**"
                         ]
                     }
-                },
-                "deploy": {
-                    "builder": "angular-cli-ghpages:deploy",
-                    "options": {}
                 }
             }
         }
