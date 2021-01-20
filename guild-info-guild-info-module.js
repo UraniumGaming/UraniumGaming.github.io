@@ -520,17 +520,9 @@ const DATA = [
         imageUrl: 'assets/officers/adrian.jpg',
     },
     {
-        title: 'Raid Leader][Gold Team',
-        name: 'Scoffsstab',
-        description: 'Hi, I’m Chris, purveyor of exquisite tattoos and fine roguishery. I’m in charge of making sure ' +
-            'we do the things to kill the big monsters. Also I’m a career bartender so I’m in charge of what happens ' +
-            'usually if we DON’T kill the big monsters.',
-        imageUrl: 'assets/officers/scoffsstab.jpg',
-    },
-    {
         title: 'Raid Leader][Blue Team',
-        name: 'Vacancy',
-        description: 'There is currently an open vacancy for this position.',
+        name: 'Moonface',
+        description: null,
         imageUrl: null,
     },
     {
@@ -554,12 +546,6 @@ const DATA = [
         name: 'McDingus',
         description: 'Formed during the most bodacious metal riff known to man whilst lightning struck a flaming unicorn, McDingus was brought into this world to hack, slash, and otherwise kick ass. Bearing the mark of Rage, his temper can only be quelled by l33t d33ps and gummy bears. Armed with his Beard of Destiny, he seeks to triumph over AOTC and Cutting Edge at every turn, striking down trash and looking sick as hell doing it. With his trusty chicken steed "Thic Dingus", he charges into battle knowing only the badass smacks he reigns upon his enemies will bring about his salvation.',
         imageUrl: 'assets/officers/mc-dingus.png',
-    },
-    {
-        title: 'Heal Lead',
-        name: 'Rinny',
-        description: 'Hi I’m Rin! I’m here to find people to play bunkers & badasses. Oh this is about WoW? Well I’m your resident heal lead, so if you have any healing questions don’t hesitate to ask. I’m also in charge of who gets benched on my healing roster... speaking of benching uh meek..',
-        imageUrl: 'assets/officers/rinny.png',
     },
 ];
 
