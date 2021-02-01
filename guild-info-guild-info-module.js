@@ -504,12 +504,12 @@ GuildInfoModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineIn
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DATA", function() { return DATA; });
 const DATA = [
-    {
-        title: 'Commanding Officer',
-        name: 'Darnell',
-        description: null,
-        imageUrl: 'assets/officers/danny.jpg',
-    },
+    //     {
+    //         title: 'Commanding Officer',
+    //         name: 'Darnell',
+    //         description: null,
+    //         imageUrl: 'assets/officers/danny.jpg',
+    //     },
     {
         title: 'Executive Officer',
         name: 'Astakyr',
@@ -519,12 +519,12 @@ const DATA = [
             'anything and I’ll be down to clown.',
         imageUrl: 'assets/officers/adrian.jpg',
     },
-    {
-        title: 'Raid Leader][Blue Team',
-        name: 'Moonface',
-        description: null,
-        imageUrl: null,
-    },
+    //     {
+    //         title: 'Raid Leader][Blue Team',
+    //         name: 'Moonface',
+    //         description: null,
+    //         imageUrl: null,
+    //     },
     {
         title: 'Recruiting Officer',
         name: 'Ben / Aelionys',
