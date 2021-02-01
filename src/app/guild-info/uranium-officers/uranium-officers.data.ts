@@ -6,12 +6,12 @@ export interface OfficerData {
 }
 
 export const DATA: OfficerData[] = [
-    {
-        title: 'Commanding Officer',
-        name: 'Darnell',
-        description: null,
-        imageUrl: 'assets/officers/danny.jpg',
-    },
+//     {
+//         title: 'Commanding Officer',
+//         name: 'Darnell',
+//         description: null,
+//         imageUrl: 'assets/officers/danny.jpg',
+//     },
     {
         title: 'Executive Officer',
         name: 'Astakyr',
@@ -21,12 +21,12 @@ export const DATA: OfficerData[] = [
             'anything and I’ll be down to clown.',
         imageUrl: 'assets/officers/adrian.jpg',
     },
-    {
-        title: 'Raid Leader][Blue Team',
-        name: 'Moonface',
-        description: null,
-        imageUrl: null,
-    },
+//     {
+//         title: 'Raid Leader][Blue Team',
+//         name: 'Moonface',
+//         description: null,
+//         imageUrl: null,
+//     },
     {
         title: 'Recruiting Officer',
         name: 'Ben / Aelionys',
